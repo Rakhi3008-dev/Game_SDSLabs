@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  canvas {
+    display: block;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  }
+  #menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  #startButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #startButton:hover {
+    background-color: #45a049;
+  }
